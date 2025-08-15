@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(45, 36, 52);
+}
+.header {
+  background-color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  width: 100%;
+  padding: 20px;
+  border: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+.stack {
+  color: antiquewhite;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 150px;
+  border: 1px solid goldenrod;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.card h2 {
+  margin: 0;
+}
+.card.html {
+  border-top: 20px solid #53281d;
+}
+
+.card.css {
+  border-top: 20px solid #264de4;
+}
+
+.card.docker {
+  border-top: 20px solid #58a6e1;
+}
+
+.card.javascript {
+  border-top: 20px solid #eed30d;
+}
+
+.availability {
+  background-color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  width: 100%;
+  padding: 20px;
+  border: 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.availability table {
+  border: 3px solid black;
+  height: 40px;
+  width: 50px;
+}
+.lesson {
+  background-color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  width: 100%;
+  padding: 20px;
+  border: 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.lesson form {
+  background-color: rgb(45, 36, 52);
+  width: 300px;
+  height: 200px;
+  color: white;
+}
+.Footer {
+  text-align: center;
+  color: #eee8e8;
+}
